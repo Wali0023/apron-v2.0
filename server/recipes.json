@@ -1,0 +1,250 @@
+{
+  "recipes": [
+    {
+      "title": "Brownie ",
+      "description": "Easy homemade brownies will have you ditching store-bought mixes for good. Loaded with decadent chocolate flavor, these brownies are gooey and thick with crispy edges.",
+      "instructions": "Preheat the oven to 350°F. Lightly grease a 9-inch square baking pan with butter or baking spray and line it with parchment paper.\r\nIn a large microwave-safe bowl, combine the butter and 1 cup of chocolate chips and microwave in 20-second intervals, stirring between each one, until fully melted and combined, about 2 minutes. Whisk in the cocoa powder. Add the sugar, eggs, egg yolk, coffee, and vanilla, and whisk until well combined.\r\nAdd the flour and salt, and stir together with a spatula until just combined. Reserve ½ cup of brownie batter in a small bowl. Stir the remaining ⅓ cup of chocolate chips into the remaining batter, and spread the batter into the prepared pan.\r\nBake for 20 minutes for super fudgy brownies or 30 minutes for more cakey brownies. Meanwhile, stir the hot water into the reserved batter. The batter should still be thick but slowly pour off a spoon. Add more water if needed.",
+      "cookTime": "1 hour",
+      "prepTime": "15 minutes",
+      "cuisine": "American",
+      "course": "Dessert",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2023/09/Brownie-Recipe-Blog-1.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "unsalted butter ",
+          "amount": 227,
+          "unit": "g"
+        },
+        {
+          "id": 2,
+          "title": " semisweet chocolate chips ",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "id": 3,
+          "title": "Dutch-processed cocoa powder",
+          "amount": 0.75,
+          "unit": "cup"
+        },
+        {
+          "id": 4,
+          "title": " granulated sugar",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": 5,
+          "title": " brown sugar",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "id": 6,
+          "title": "large eggs room temperature ",
+          "amount": 2,
+          "unit": "pieces"
+        },
+        {
+          "id": 7,
+          "title": "yolk room temperature",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "id": 8,
+          "title": " brewed coffee ",
+          "amount": 1,
+          "unit": "tablespoon"
+        },
+        {
+          "id": 9,
+          "title": "vanilla extract",
+          "amount": 1,
+          "unit": "tablespoon"
+        },
+        {
+          "id": 10,
+          "title": "all-purpose flour",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "id": 11,
+          "title": "salt",
+          "amount": 1,
+          "unit": "teaspoon"
+        },
+        {
+          "id": 12,
+          "title": "hot water plus more if needed",
+          "amount": 1,
+          "unit": "tablespoon"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-12T05:16:41.842Z",
+        "updatedAt": "2026-03-12T05:16:41.842Z"
+      },
+      "id": 2,
+      "sku": "DES-AME-BRO-2"
+    },
+    {
+      "title": "Carrot Cake Cookies",
+      "description": "Carrot Cake Cookies, loaded with warm spices, lots of fresh carrot, and crunchy nuts, are a wonderful dessert that’s easy to throw together. Spread a generous amount of tangy cream cheese frosting on top for the ultimate treat.",
+      "instructions": "Preheat the oven to 350°F. Line two large baking sheets with parchment paper.In a medium bowl, whisk together the flour, baking soda, salt, cinnamon, ginger, and nutmeg. Set aside.In a large mixing bowl using a hand mixer or stand mixer with the paddle attachment, beat the butter and both sugars together on medium speed until light and fluffy, about 3 minutes. Add the egg and vanilla, and beat until well combined. Scrape the bowl down.With the mixer on low speed, add the dry mixture and mix until almost combined. Add the shredded carrots, oats, and pecans (if using), and mix on low until just combined.Scoop the dough into 1½ tablespoon-sized dough balls (about 35g each), and place on the prepared cookie sheets about 2 inches apart. Bake for about 12 minutes or until the edges are golden brown. The centers will still be soft, but you can bake for 2 to 3 more minutes for a crispier cookie. Let the cookies cool on the pan for a few minutes, then transfer to a wire rack to cool completely.",
+      "cookTime": "12 minutes",
+      "prepTime": "30 minutes",
+      "cuisine": "American",
+      "course": "Dessert",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "all-purpose flour",
+          "amount": 270,
+          "unit": "g"
+        },
+        {
+          "id": 2,
+          "title": "baking soda",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": 3,
+          "title": "kosher salt",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": 4,
+          "title": "ground cinnamon",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "id": 5,
+          "title": "ground ginger",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": 6,
+          "title": "ground nutmeg",
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "id": 7,
+          "title": "unsalted butter",
+          "amount": 226,
+          "unit": "g"
+        },
+        {
+          "id": 8,
+          "title": "light brown sugar",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "id": 9,
+          "title": " egg",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "id": 10,
+          "title": "vanilla extract",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "id": 11,
+          "title": "grated carrot",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "id": 12,
+          "title": "old-fashioned rolled oats",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "id": 13,
+          "title": "finely chopped pecans",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "id": 14,
+          "title": "granulated sugar",
+          "amount": 100,
+          "unit": "g"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-12T08:09:29.025Z",
+        "updatedAt": "2026-03-12T08:09:29.025Z"
+      },
+      "id": 1,
+      "sku": "DES-AME-CAR-3",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2025/03/Carrot-Cake-Cookies-Feature.jpg"
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "title": "all-purpose flour"
+    },
+    {
+      "id": 2,
+      "title": "baking soda"
+    },
+    {
+      "id": 3,
+      "title": "kosher salt"
+    },
+    {
+      "id": 4,
+      "title": "ground cinnamon"
+    },
+    {
+      "id": 5,
+      "title": "unsalted butter"
+    },
+    {
+      "id": 6,
+      "title": "ground nutmeg"
+    },
+    {
+      "id": 7,
+      "title": "light brown sugar"
+    },
+    {
+      "id": 8,
+      "title": "ground ginger"
+    },
+    {
+      "id": 9,
+      "title": "granulated sugar"
+    },
+    {
+      "id": 10,
+      "title": "vanilla extract"
+    },
+    {
+      "id": 11,
+      "title": "grated carrot"
+    },
+    {
+      "id": 12,
+      "title": "old-fashioned rolled oats"
+    },
+    {
+      "id": 13,
+      "title": "finely chopped pecans"
+    }
+  ]
+}
