@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { Recipe } from "../types";
+import { DeleteForm } from "./DeleteForm";
 
 export default function RecipeCard({ recipe }: { recipe: Recipe }) {
   return (
@@ -16,6 +18,8 @@ export default function RecipeCard({ recipe }: { recipe: Recipe }) {
         <h2 className="mb-2 text-xl font-bold text-slate-800">
           {recipe.title}
         </h2>
+        <Link href={`/recipes/edit/${recipe.id}`}>Edit</Link>
+        <DeleteForm id={recipe.id.toString()} />
       </div>
     </div>
   );
