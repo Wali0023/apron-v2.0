@@ -1,5 +1,6 @@
 import Form from "next/form";
 import { addRecipe } from "./action";
+import AddIngredientsList from "@/app/components/AddIngredientsList";
 
 export default async function CreatePage() {
   return (
@@ -26,7 +27,7 @@ export default async function CreatePage() {
             name="description"
             required
           />
-
+          <AddIngredientsList />
           <label className="font-semibold" htmlFor="instruction">
             Instructions
           </label>
