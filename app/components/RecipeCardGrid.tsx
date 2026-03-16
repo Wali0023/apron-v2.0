@@ -31,6 +31,10 @@ export default function RecipeCardGrid({ Recipes }: { Recipes: Recipe[] }) {
           </div>
         ))}
       </div>
+      <RecipeModal
+        recipe={selectedRecipe}
+        onClose={() => setSelectedRecipe(null)}
+      />
     </div>
   );
 }
