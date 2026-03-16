@@ -1,3 +1,5 @@
+import MainNavigation from "./MainNavigation";
+
 export default function Header() {
   return (
     <header className="bg-[#F5E7C6]">
@@ -5,6 +7,7 @@ export default function Header() {
         <div className="flex h-15.5 w-20.75 items-center justify-center">
           Apron
         </div>
+        <MainNavigation />
       </div>
     </header>
   );
