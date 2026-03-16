@@ -1,11 +1,21 @@
+"use client";
 import Form from "next/form";
 import AddIngredientsList from "@/app/components/AddIngredientsList";
 import type { Recipe } from "@/app/types";
 import { updateRecipe } from "../recipes/create/action";
+import { useRouter } from "next/navigation";
 
-export default function RecipeEditForm({ recipe }: { recipe: Recipe }) {
+export default function EditForm({ recipe }: { recipe: Recipe }) {
+  const router = useRouter();
+
+  async function handleAction(formData: FormData) {
+    await updateRecipe(formData);
+
+    router.back();
+    router.refresh();
+  }
   return (
-    <Form action={updateRecipe} className="grid gap-4 p-4 bg-white">
+    <form action={handleAction} className="grid gap-4 p-4 bg-white">
       <input type="hidden" name="id" value={recipe.id} />
       <div className="grid grid-cols-[auto_1fr] items-center gap-x-4 gap-y-2">
         <label className="font-semibold" htmlFor="title">
@@ -84,10 +94,21 @@ export default function RecipeEditForm({ recipe }: { recipe: Recipe }) {
           defaultValue={recipe.course}
           required
         />
+        <label className="font-semibold" htmlFor="image">
+          Image URL
+        </label>
+        <input
+          className="border bg-white p-2"
+          type="url"
+          id="image"
+          name="image"
+          defaultValue={recipe.imageUrl}
+          required
+        />
         <button type="submit" className="bg-blue-500 text-white p-2">
           Save
         </button>
       </div>
-    </Form>
+    </form>
   );
 }

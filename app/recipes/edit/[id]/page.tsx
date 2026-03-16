@@ -1,10 +1,6 @@
-import Form from "next/form";
-
 import { API_URL } from "@/lib/config";
 import type { Recipe } from "@/app/types";
-import { updateRecipe } from "../../create/action";
-import AddIngredientsList from "@/app/components/AddIngredientsList";
-import RecipeEditForm from "@/app/components/EditForm";
+import EditForm from "@/app/components/EditForm";
 
 export default async function UpdatePage({
   params,
@@ -20,7 +16,7 @@ export default async function UpdatePage({
       <h1 className="text-2xl font-bold mb-6">Edit Recipe</h1>
       <div className="max-w-2xl border rounded-lg p-6 bg-gray-50">
         {/* We pass the fetched data into the shared Form component */}
-        <RecipeEditForm recipe={recipe} />
+        <EditForm recipe={recipe} />
       </div>
     </main>
   );

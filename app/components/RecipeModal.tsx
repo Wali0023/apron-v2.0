@@ -30,7 +30,6 @@ export default function RecipeModal({ recipe, onClose }: RecipeModalProps) {
     >
       {recipe && (
         <div className="flex flex-col max-h-[90vh]">
-          {/* Header */}
           <div className="flex justify-between items-center p-6 border-b border-amber-100 bg-amber-50">
             <h2 className="text-2xl font-bold text-amber-900">
               {recipe.title}
@@ -43,7 +42,6 @@ export default function RecipeModal({ recipe, onClose }: RecipeModalProps) {
             </button>
           </div>
 
-          {/* Body */}
           <div className="p-8 overflow-y-auto bg-white text-gray-800">
             <p className="italic text-gray-600 mb-6 border-l-4 border-amber-200 pl-4">
               {recipe.description}
@@ -86,7 +84,6 @@ export default function RecipeModal({ recipe, onClose }: RecipeModalProps) {
             </div>
           </div>
 
-          {/* Footer */}
           <div className="p-4 bg-gray-50 flex justify-end">
             <button
               onClick={onClose}

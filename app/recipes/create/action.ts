@@ -12,6 +12,7 @@ export async function addRecipe(formData: FormData) {
   const prepTime = formData.get("prepTime") as string;
   const cuisine = formData.get("cuisine") as string;
   const course = formData.get("course") as string;
+  const imageUrl = formData.get("image") as string;
 
   const titles = formData.getAll("ingredientTitle") as string[];
   const amounts = formData.getAll("ingredientAmount") as string[];
@@ -33,6 +34,7 @@ export async function addRecipe(formData: FormData) {
     cuisine,
     course,
     recipeIngredients,
+    imageUrl,
   };
   const res = await fetch(`${API_URL}/recipes/`, {
     method: "POST",
@@ -40,8 +42,8 @@ export async function addRecipe(formData: FormData) {
     body: JSON.stringify(newRecipe),
   });
   const data = await res.json();
-  revalidatePath("/");
-  redirect("/");
+  revalidatePath("/recipes");
+  redirect("/recipes");
 }
 export async function updateRecipe(formData: FormData) {
   const id = formData.get("id") as string;
@@ -52,6 +54,7 @@ export async function updateRecipe(formData: FormData) {
   const prepTime = formData.get("prepTime") as string;
   const cuisine = formData.get("cuisine") as string;
   const course = formData.get("course") as string;
+  const imageUrl = formData.get("image") as string;
 
   const titles = formData.getAll("ingredientTitle") as string[];
   const amounts = formData.getAll("ingredientAmount") as string[];
@@ -73,6 +76,7 @@ export async function updateRecipe(formData: FormData) {
     cuisine,
     course,
     recipeIngredients,
+    imageUrl,
   };
   const res = await fetch(`${API_URL}/recipes/${id}`, {
     method: "PATCH",
@@ -80,8 +84,8 @@ export async function updateRecipe(formData: FormData) {
     body: JSON.stringify(newRecipe),
   });
   const data = await res.json();
-  revalidatePath("/");
-  redirect("/");
+  revalidatePath("/recipes");
+  return { success: true };
 }
 export async function deleteRecipe(formData: FormData) {
   const id = formData.get("id") as string;
