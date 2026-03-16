@@ -1,5 +1,6 @@
 import AddRecipeButton from "../components/AddRecipeButton";
 import RecipeCard from "../components/RecipeCard";
+import RecipeCardGrid from "../components/RecipeCardGrid";
 import { Recipe, RecipesResponse } from "../types";
 
 export default async function Recipes() {
@@ -12,14 +13,8 @@ export default async function Recipes() {
 
   console.log("hello");
   return (
-    <div className="">
-      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 p-4 sm:grid-cols-2 lg:grid-cols-4">
-        {recipes.map((recipe: Recipe) => (
-          <div key={recipe.id}>
-            <RecipeCard recipe={recipe} />
-          </div>
-        ))}
-      </div>
+    <div>
+      <RecipeCardGrid Recipes={recipes} />
       <div className="mb-8 flex items-center justify-center">
         <AddRecipeButton />
       </div>
