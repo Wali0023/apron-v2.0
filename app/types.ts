@@ -24,3 +24,8 @@ export interface RecipesResponse {
   page: number;
   pages: number;
 }
+export interface ScheduledRecipe {
+  recipeId: number;
+  date: string;
+  title: string;
+}
