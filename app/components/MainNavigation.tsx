@@ -5,13 +5,12 @@ const menu = [
   { title: "Home", href: "/" },
   { title: "Recipes", href: "/recipes" },
   { title: "Calendar", href: "/calendar" },
-  { title: "About", href: "/about" },
 ];
 export default function MainNavigation() {
   const pathname = usePathname();
 
   const activeStying = "bg-orange-500 text-white font-bold";
-  const inactiveStyling = "hover:bg-[#D8CCAF] text-black";
+  const inactiveStyling = "hover:bg-[#D8CCAF] text-black font-bold";
 
   const getLinkStyles = (path: string) => {
     const isActive = pathname === path;

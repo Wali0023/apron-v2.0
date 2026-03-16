@@ -1,94 +1,1007 @@
 {
   "recipes": [
     {
-      "title": "Brownie ",
-      "description": "Easy homemade brownies will have you ditching store-bought mixes for good. Loaded with decadent chocolate flavor, these brownies are gooey and thick with crispy edges.",
-      "instructions": "Preheat the oven to 350°F. Lightly grease a 9-inch square baking pan with butter or baking spray and line it with parchment paper.\r\nIn a large microwave-safe bowl, combine the butter and 1 cup of chocolate chips and microwave in 20-second intervals, stirring between each one, until fully melted and combined, about 2 minutes. Whisk in the cocoa powder. Add the sugar, eggs, egg yolk, coffee, and vanilla, and whisk until well combined.\r\nAdd the flour and salt, and stir together with a spatula until just combined. Reserve ½ cup of brownie batter in a small bowl. Stir the remaining ⅓ cup of chocolate chips into the remaining batter, and spread the batter into the prepared pan.\r\nBake for 20 minutes for super fudgy brownies or 30 minutes for more cakey brownies. Meanwhile, stir the hot water into the reserved batter. The batter should still be thick but slowly pour off a spoon. Add more water if needed.",
-      "cookTime": "1 hour",
-      "prepTime": "15 minutes",
+      "title": "Classic Chocolate Chip Cookies",
+      "description": "The ultimate chewy cookie with crisp edges and a soft, buttery center. These are packed with premium chocolate chunks and a hint of sea salt.",
+      "instructions": "Preheat oven to 375°F. Cream together butter, granulated sugar, and brown sugar until fluffy. Add eggs and vanilla, beating well. In a separate bowl, whisk flour, baking soda, and salt. Gradually add dry ingredients to wet. Fold in chocolate chips. Scoop rounded tablespoons onto ungreased sheets. Bake for 9-11 minutes until golden.",
+      "cookTime": "11 minutes",
+      "prepTime": "5 minutes",
       "cuisine": "American",
       "course": "Dessert",
-      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2023/09/Brownie-Recipe-Blog-1.jpg",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2021/08/Chocolate-Chip-Cookies-Feature.jpg",
       "recipeIngredients": [
         {
           "id": 1,
-          "title": "unsalted butter ",
+          "title": "unsalted butter softened",
           "amount": 227,
           "unit": "g"
         },
         {
           "id": 2,
-          "title": " semisweet chocolate chips ",
-          "amount": 240,
+          "title": "granulated sugar",
+          "amount": 150,
           "unit": "g"
         },
         {
           "id": 3,
-          "title": "Dutch-processed cocoa powder",
-          "amount": 0.75,
-          "unit": "cup"
+          "title": "brown sugar",
+          "amount": 165,
+          "unit": "g"
         },
         {
           "id": 4,
-          "title": " granulated sugar",
-          "amount": 200,
-          "unit": "g"
-        },
-        {
-          "id": 5,
-          "title": " brown sugar",
-          "amount": 220,
-          "unit": "g"
-        },
-        {
-          "id": 6,
-          "title": "large eggs room temperature ",
+          "title": "large eggs",
           "amount": 2,
           "unit": "pieces"
         },
         {
-          "id": 7,
-          "title": "yolk room temperature",
-          "amount": 1,
-          "unit": "piece"
-        },
-        {
-          "id": 8,
-          "title": " brewed coffee ",
-          "amount": 1,
-          "unit": "tablespoon"
-        },
-        {
-          "id": 9,
+          "id": 5,
           "title": "vanilla extract",
           "amount": 1,
           "unit": "tablespoon"
         },
         {
-          "id": 10,
+          "id": 6,
           "title": "all-purpose flour",
-          "amount": 120,
+          "amount": 375,
           "unit": "g"
         },
         {
-          "id": 11,
-          "title": "salt",
+          "id": 7,
+          "title": "baking soda",
           "amount": 1,
           "unit": "teaspoon"
         },
         {
-          "id": 12,
-          "title": "hot water plus more if needed",
+          "id": 8,
+          "title": "sea salt",
+          "amount": 0.5,
+          "unit": "teaspoon"
+        },
+        {
+          "id": 9,
+          "title": "semisweet chocolate chips",
+          "amount": 340,
+          "unit": "g"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-16T08:00:00.000Z",
+        "updatedAt": "2026-03-16T08:00:00.000Z"
+      },
+      "id": 3,
+      "sku": "DES-AME-CCC-3",
+      "imageURL": "https://preppykitchen.com/wp-content/uploads/2021/08/Chocolate-Chip-Cookies-Feature.jpg"
+    },
+    {
+      "title": "Margherita Pizza",
+      "description": "A simple yet elegant Italian staple featuring a thin, crispy crust, San Marzano tomatoes, and fresh buffalo mozzarella.",
+      "instructions": "Preheat oven with a pizza stone to 500°F. Stretch dough into a 12-inch circle. Spread crushed tomatoes over the base. Tear mozzarella and place evenly. Drizzle with olive oil. Bake for 8-10 minutes until crust is charred. Top with fresh basil leaves immediately after removing.",
+      "cookTime": "10 minutes",
+      "prepTime": "20 minutes",
+      "cuisine": "Italian",
+      "course": "Main Course",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2024/01/Margherita-Pizza-Feature-1025x1536.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "pizza dough",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "id": 2,
+          "title": "San Marzano canned tomatoes",
+          "amount": 120,
+          "unit": "ml"
+        },
+        {
+          "id": 3,
+          "title": "fresh buffalo mozzarella",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "id": 4,
+          "title": "fresh basil leaves",
+          "amount": 6,
+          "unit": "pieces"
+        },
+        {
+          "id": 5,
+          "title": "extra virgin olive oil",
           "amount": 1,
           "unit": "tablespoon"
         }
       ],
       "meta": {
-        "createdAt": "2026-03-12T05:16:41.842Z",
-        "updatedAt": "2026-03-12T05:16:41.842Z"
+        "createdAt": "2026-03-16T08:05:00.000Z",
+        "updatedAt": "2026-03-16T08:05:00.000Z"
       },
-      "id": 2,
-      "sku": "DES-AME-BRO-2"
+      "id": 4,
+      "sku": "MAI-ITA-PIZ-4"
+    },
+    {
+      "title": "Chunky Lime Guacamole",
+      "description": "Creamy avocados mixed with zesty lime, fresh cilantro, and a hint of jalapeño for a kick.",
+      "instructions": "In a medium bowl, mash avocados with a fork until desired consistency. Stir in lime juice, onion, cilantro, and jalapeño. Season with salt and pepper. Serve immediately with tortilla chips.",
+      "cookTime": "0 minutes",
+      "prepTime": "10 minutes",
+      "cuisine": "Mexican",
+      "course": "Appetizer",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2019/05/Guacamole-Feature-1.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "ripe avocados",
+          "amount": 3,
+          "unit": "pieces"
+        },
+        {
+          "id": 2,
+          "title": "lime juiced",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "id": 3,
+          "title": "red onion finely diced",
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        {
+          "id": 4,
+          "title": "fresh cilantro chopped",
+          "amount": 3,
+          "unit": "tablespoons"
+        },
+        {
+          "id": 5,
+          "title": "jalapeño seeded and minced",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "id": 6,
+          "title": "salt",
+          "amount": 0.5,
+          "unit": "teaspoon"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-16T08:10:00.000Z",
+        "updatedAt": "2026-03-16T08:10:00.000Z"
+      },
+      "id": 5,
+      "sku": "APP-MEX-GUA-5"
+    },
+    {
+      "title": "Buttermilk Pancakes",
+      "description": "Light, fluffy, and golden brown. The perfect weekend breakfast served with maple syrup and butter.",
+      "instructions": "Whisk dry ingredients in a large bowl. In another bowl, whisk buttermilk, eggs, and melted butter. Combine wet and dry ingredients until just mixed. Pour 1/4 cup portions onto a hot greased griddle. Flip when bubbles appear on the surface.",
+      "cookTime": "15 minutes",
+      "prepTime": "10 minutes",
+      "cuisine": "American",
+      "course": "Breakfast",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2025/04/buttermilk-pancakes-feature.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "all-purpose flour",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "id": 2,
+          "title": "buttermilk",
+          "amount": 475,
+          "unit": "ml"
+        },
+        {
+          "id": 3,
+          "title": "large eggs",
+          "amount": 2,
+          "unit": "pieces"
+        },
+        {
+          "id": 4,
+          "title": "melted butter",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "id": 5,
+          "title": "sugar",
+          "amount": 2,
+          "unit": "tablespoons"
+        },
+        {
+          "id": 6,
+          "title": "baking powder",
+          "amount": 2,
+          "unit": "teaspoons"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-16T08:15:00.000Z",
+        "updatedAt": "2026-03-16T08:15:00.000Z"
+      },
+      "id": 6,
+      "sku": "BRE-AME-PAN-6"
+    },
+    {
+      "title": "Chicken Tikka Masala",
+      "description": "Tender charred chicken in a rich, creamy tomato sauce with aromatic Indian spices.",
+      "instructions": "Marinate chicken in yogurt and spices for 1 hour. Grill or sear chicken until charred. For the sauce, sauté onions, ginger, and garlic. Add tomatoes and spices, simmer for 20 minutes. Stir in heavy cream and add chicken back in.",
+      "cookTime": "30 minutes",
+      "prepTime": "60 minutes",
+      "cuisine": "Indian",
+      "course": "Main Course",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2023/04/Chicken-Tikka-Masala-Feature.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "chicken breast cubes",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "id": 2,
+          "title": "greek yogurt",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "id": 3,
+          "title": "crushed tomatoes",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": 4,
+          "title": "heavy cream",
+          "amount": 100,
+          "unit": "ml"
+        },
+        {
+          "id": 5,
+          "title": "garam masala",
+          "amount": 2,
+          "unit": "teaspoons"
+        },
+        {
+          "id": 6,
+          "title": "turmeric",
+          "amount": 1,
+          "unit": "teaspoon"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-16T08:20:00.000Z",
+        "updatedAt": "2026-03-16T08:20:00.000Z"
+      },
+      "id": 7,
+      "sku": "MAI-IND-CTM-7"
+    },
+    {
+      "title": "Beef and Broccoli Stir-Fry",
+      "description": "A quick and healthy weeknight dinner featuring tender beef strips and crisp broccoli in a savory soy-ginger sauce.",
+      "instructions": "Whisk soy sauce, ginger, and cornstarch. Sear beef strips in a hot wok. Remove beef, then sauté broccoli with a splash of water until tender. Return beef to wok and pour in sauce. Stir until thickened.",
+      "cookTime": "10 minutes",
+      "prepTime": "15 minutes",
+      "cuisine": "Chinese",
+      "course": "Main Course",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2024/12/Mongolian-Beef-Feature-1025x1536.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "flank steak sliced",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "id": 2,
+          "title": "broccoli florets",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "id": 3,
+          "title": "soy sauce",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "id": 4,
+          "title": "fresh ginger minced",
+          "amount": 1,
+          "unit": "tablespoon"
+        },
+        {
+          "id": 5,
+          "title": "cornstarch",
+          "amount": 1,
+          "unit": "tablespoon"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-16T08:25:00.000Z",
+        "updatedAt": "2026-03-16T08:25:00.000Z"
+      },
+      "id": 8,
+      "sku": "MAI-CHI-BBS-8"
+    },
+    {
+      "title": "Moist Banana Bread",
+      "description": "Use up those overripe bananas for this incredibly moist and sweet loaf. Great with walnuts or chocolate chips.",
+      "instructions": "Mash bananas in a bowl. Stir in melted butter, sugar, egg, and vanilla. Mix in baking soda, salt, and flour. Pour into a greased loaf pan. Bake at 350°F for 50-60 minutes.",
+      "cookTime": "1 hour",
+      "prepTime": "10 minutes",
+      "cuisine": "American",
+      "course": "Snack",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2023/09/Banana-Bread-Feature.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "overripe bananas",
+          "amount": 3,
+          "unit": "pieces"
+        },
+        {
+          "id": 2,
+          "title": "melted butter",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "id": 3,
+          "title": "sugar",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "id": 4,
+          "title": "large egg",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "id": 5,
+          "title": "all-purpose flour",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "id": 6,
+          "title": "baking soda",
+          "amount": 1,
+          "unit": "teaspoon"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-16T08:30:00.000Z",
+        "updatedAt": "2026-03-16T08:30:00.000Z"
+      },
+      "id": 9,
+      "sku": "SNA-AME-BNB-9"
+    },
+    {
+      "title": "Classic Caesar Salad",
+      "description": "Crisp romaine lettuce tossed in a creamy, homemade garlic-parmesan dressing with crunchy croutons.",
+      "instructions": "Whisk garlic, anchovy paste, lemon juice, Dijon, and egg yolk. Slowly whisk in olive oil until emulsified. Toss with chopped romaine and parmesan. Top with croutons.",
+      "cookTime": "0 minutes",
+      "prepTime": "20 minutes",
+      "cuisine": "Mexican",
+      "course": "Salad",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2025/06/caesar-salad-feature.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "romaine lettuce",
+          "amount": 2,
+          "unit": "heads"
+        },
+        {
+          "id": 2,
+          "title": "parmesan cheese",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "id": 3,
+          "title": "olive oil",
+          "amount": 120,
+          "unit": "ml"
+        },
+        {
+          "id": 4,
+          "title": "lemon juice",
+          "amount": 2,
+          "unit": "tablespoons"
+        },
+        {
+          "id": 5,
+          "title": "croutons",
+          "amount": 1,
+          "unit": "cup"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-16T08:35:00.000Z",
+        "updatedAt": "2026-03-16T08:35:00.000Z"
+      },
+      "id": 10,
+      "sku": "SAL-MEX-CAE-10"
+    },
+    {
+      "title": "Garlic Butter Shrimp Pasta",
+      "description": "Succulent shrimp and linguine in a silky garlic butter sauce with a hint of lemon and red pepper flakes.",
+      "instructions": "Boil pasta. Sauté shrimp in butter and garlic until pink. Add lemon juice, red pepper flakes, and a splash of pasta water. Toss in cooked pasta and fresh parsley.",
+      "cookTime": "10 minutes",
+      "prepTime": "10 minutes",
+      "cuisine": "Italian",
+      "course": "Main Course",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2023/05/Garlic-Shrimp-Feature-1084x1536.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "linguine",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "id": 2,
+          "title": "large shrimp peeled",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "id": 3,
+          "title": "garlic minced",
+          "amount": 4,
+          "unit": "cloves"
+        },
+        {
+          "id": 4,
+          "title": "butter",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "id": 5,
+          "title": "lemon juice",
+          "amount": 1,
+          "unit": "tablespoon"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-16T08:40:00.000Z",
+        "updatedAt": "2026-03-16T08:40:00.000Z"
+      },
+      "id": 11,
+      "sku": "MAI-ITA-GSP-11"
+    },
+    {
+      "title": "Greek Salad",
+      "description": "Refreshing and vibrant salad with cucumbers, tomatoes, kalamata olives, and creamy feta cheese.",
+      "instructions": "Chop vegetables into bite-sized pieces. Combine in a large bowl. Whisk olive oil, oregano, and red wine vinegar. Pour over salad and toss gently. Top with feta block.",
+      "cookTime": "0 minutes",
+      "prepTime": "15 minutes",
+      "cuisine": "Greek",
+      "course": "Salad",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2019/04/Greek-Salad-Feature.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "cucumber",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "id": 2,
+          "title": "cherry tomatoes",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": 3,
+          "title": "feta cheese",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "id": 4,
+          "title": "kalamata olives",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "id": 5,
+          "title": "extra virgin olive oil",
+          "amount": 3,
+          "unit": "tablespoons"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-16T08:45:00.000Z",
+        "updatedAt": "2026-03-16T08:45:00.000Z"
+      },
+      "id": 12,
+      "sku": "SAL-GRE-GKS-12"
+    },
+    {
+      "title": "French Onion Soup",
+      "description": "Deeply caramelized onions in a rich beef broth, topped with a toasted baguette and melted Gruyère cheese.",
+      "instructions": "Caramelize onions in butter for 45 minutes. Add beef broth and thyme, simmer for 20 minutes. Pour into crocks, top with bread and cheese. Broil until bubbly and brown.",
+      "cookTime": "1 hour",
+      "prepTime": "15 minutes",
+      "cuisine": "French",
+      "course": "Starter",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2021/12/French-Onion-Soup-Feature.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "yellow onions sliced",
+          "amount": 4,
+          "unit": "pieces"
+        },
+        {
+          "id": 2,
+          "title": "beef broth",
+          "amount": 1,
+          "unit": "liter"
+        },
+        {
+          "id": 3,
+          "title": "gruyere cheese",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "id": 4,
+          "title": "french baguette slices",
+          "amount": 4,
+          "unit": "pieces"
+        },
+        {
+          "id": 5,
+          "title": "butter",
+          "amount": 50,
+          "unit": "g"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-16T08:50:00.000Z",
+        "updatedAt": "2026-03-16T08:50:00.000Z"
+      },
+      "id": 13,
+      "sku": "STA-FRE-FOS-13"
+    },
+    {
+      "title": "Blueberry Muffins",
+      "description": "Bakery-style muffins with a high dome, bursting with fresh blueberries and a sugary streusel topping.",
+      "instructions": "Mix flour, sugar, and baking powder. Whisk milk, oil, and egg. Combine wet and dry, then fold in blueberries. Fill muffin tins to the top. Bake at 400°F for 20 minutes.",
+      "cookTime": "20 minutes",
+      "prepTime": "10 minutes",
+      "cuisine": "American",
+      "course": "Breakfast",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2025/02/Blueberry-Muffins-Feature.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "all-purpose flour",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": 2,
+          "title": "fresh blueberries",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "id": 3,
+          "title": "granulated sugar",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "id": 4,
+          "title": "vegetable oil",
+          "amount": 80,
+          "unit": "ml"
+        },
+        {
+          "id": 5,
+          "title": "milk",
+          "amount": 120,
+          "unit": "ml"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-16T08:55:00.000Z",
+        "updatedAt": "2026-03-16T08:55:00.000Z"
+      },
+      "id": 14,
+      "sku": "BRE-AME-BBM-14"
+    },
+    {
+      "title": "Mushroom Risotto",
+      "description": "Creamy Italian rice dish cooked slowly with earthy mushrooms, white wine, and parmesan.",
+      "instructions": "Sauté mushrooms and set aside. Toast arborio rice in butter. Add warm broth one ladle at a time, stirring until absorbed. Finish with butter, parmesan, and mushrooms.",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "cuisine": "Italian",
+      "course": "Main Course",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2023/02/Mushroom-Risotto-Feature.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "arborio rice",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "id": 2,
+          "title": "cremini mushrooms",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "id": 3,
+          "title": "chicken or veg broth",
+          "amount": 1,
+          "unit": "liter"
+        },
+        {
+          "id": 4,
+          "title": "dry white wine",
+          "amount": 120,
+          "unit": "ml"
+        },
+        {
+          "id": 5,
+          "title": "parmesan cheese",
+          "amount": 50,
+          "unit": "g"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-16T09:00:00.000Z",
+        "updatedAt": "2026-03-16T09:00:00.000Z"
+      },
+      "id": 15,
+      "sku": "MAI-ITA-MRI-15"
+    },
+    {
+      "title": "Teriyaki Salmon",
+      "description": "Flaky salmon fillets glazed with a sweet and savory homemade teriyaki sauce.",
+      "instructions": "Whisk soy sauce, honey, and ginger. Marinate salmon for 20 minutes. Pan-sear salmon for 4 minutes per side. Pour remaining marinade into pan and simmer until thickened into a glaze.",
+      "cookTime": "10 minutes",
+      "prepTime": "25 minutes",
+      "cuisine": "Japanese",
+      "course": "Main Course",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2025/01/Air-Fryer-Turkey-Meatballs-Feature.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "salmon fillets",
+          "amount": 2,
+          "unit": "pieces"
+        },
+        {
+          "id": 2,
+          "title": "soy sauce",
+          "amount": 4,
+          "unit": "tablespoons"
+        },
+        {
+          "id": 3,
+          "title": "honey",
+          "amount": 2,
+          "unit": "tablespoons"
+        },
+        {
+          "id": 4,
+          "title": "garlic minced",
+          "amount": 1,
+          "unit": "clove"
+        },
+        {
+          "id": 5,
+          "title": "sesame seeds",
+          "amount": 1,
+          "unit": "teaspoon"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-16T09:05:00.000Z",
+        "updatedAt": "2026-03-16T09:05:00.000Z"
+      },
+      "id": 16,
+      "sku": "MAI-JAP-TSM-16"
+    },
+    {
+      "title": "Shepherd's Pie",
+      "description": "Ground lamb and vegetables in a savory gravy, topped with a thick layer of creamy mashed potatoes.",
+      "instructions": "Brown lamb with onions and carrots. Stir in flour, broth, and peas. Transfer to a dish. Top with mashed potatoes and fork marks. Bake at 400°F for 20 minutes until golden.",
+      "cookTime": "25 minutes",
+      "prepTime": "20 minutes",
+      "cuisine": "British",
+      "course": "Main Course",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2023/03/Shepherd_s-Pie-Feature.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "ground lamb",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "id": 2,
+          "title": "potatoes mashed",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "id": 3,
+          "title": "frozen peas",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "id": 4,
+          "title": "beef broth",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "id": 5,
+          "title": "onion diced",
+          "amount": 1,
+          "unit": "piece"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-16T09:10:00.000Z",
+        "updatedAt": "2026-03-16T09:10:00.000Z"
+      },
+      "id": 17,
+      "sku": "MAI-BRI-SHP-17"
+    },
+    {
+      "title": "Caprese Skewers",
+      "description": "The perfect party appetizer: cherry tomatoes, fresh mozzarella, and basil drizzled with balsamic glaze.",
+      "instructions": "Thread one tomato, one basil leaf, and one mozzarella ball onto each skewer. Arrange on a platter. Drizzle with olive oil and balsamic glaze. Season with salt.",
+      "cookTime": "0 minutes",
+      "prepTime": "15 minutes",
+      "cuisine": "Italian",
+      "course": "Appetizer",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2017/04/caprese-2.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "cherry tomatoes",
+          "amount": 20,
+          "unit": "pieces"
+        },
+        {
+          "id": 2,
+          "title": "bocconcini balls",
+          "amount": 20,
+          "unit": "pieces"
+        },
+        {
+          "id": 3,
+          "title": "fresh basil leaves",
+          "amount": 20,
+          "unit": "pieces"
+        },
+        {
+          "id": 4,
+          "title": "balsamic glaze",
+          "amount": 2,
+          "unit": "tablespoons"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-16T09:15:00.000Z",
+        "updatedAt": "2026-03-16T09:15:00.000Z"
+      },
+      "id": 18,
+      "sku": "APP-ITA-CAP-18"
+    },
+    {
+      "title": "Street-Style Beef Tacos",
+      "description": "Simple and flavorful tacos with seasoned beef, white onion, and cilantro on corn tortillas.",
+      "instructions": "Season beef with cumin and chili powder; sear until browned. Warm corn tortillas on a pan. Fill with beef and top with diced onion, cilantro, and a squeeze of lime.",
+      "cookTime": "10 minutes",
+      "prepTime": "10 minutes",
+      "cuisine": "Mexican",
+      "course": "Main Course",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2024/02/Steak-Tacos-Feature-1025x1536.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "ground beef",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "id": 2,
+          "title": "corn tortillas",
+          "amount": 8,
+          "unit": "pieces"
+        },
+        {
+          "id": 3,
+          "title": "white onion diced",
+          "amount": 0.5,
+          "unit": "piece"
+        },
+        {
+          "id": 4,
+          "title": "fresh cilantro",
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        {
+          "id": 5,
+          "title": "lime wedges",
+          "amount": 2,
+          "unit": "pieces"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-16T09:20:00.000Z",
+        "updatedAt": "2026-03-16T09:20:00.000Z"
+      },
+      "id": 19,
+      "sku": "MAI-MEX-TAC-19"
+    },
+    {
+      "title": "Eggplant Parmesan",
+      "description": "Layers of breaded eggplant, marinara sauce, and melted mozzarella cheese. A vegetarian classic.",
+      "instructions": "Slice eggplant, bread with crumbs and parmesan, then bake until crisp. Layer in a dish with marinara and mozzarella. Repeat layers. Bake at 375°F for 30 minutes.",
+      "cookTime": "45 minutes",
+      "prepTime": "20 minutes",
+      "cuisine": "Italian",
+      "course": "Main Course",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2025/01/Moussaka-Feature.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "large eggplant",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "id": 2,
+          "title": "marinara sauce",
+          "amount": 500,
+          "unit": "ml"
+        },
+        {
+          "id": 3,
+          "title": "mozzarella cheese",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": 4,
+          "title": "breadcrumbs",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "id": 5,
+          "title": "egg beaten",
+          "amount": 2,
+          "unit": "pieces"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-16T09:25:00.000Z",
+        "updatedAt": "2026-03-16T09:25:00.000Z"
+      },
+      "id": 20,
+      "sku": "MAI-ITA-EPP-20"
+    },
+    {
+      "title": "Apple Crisp",
+      "description": "Warm, cinnamon-spiced apples topped with a crunchy oat and brown sugar crumble.",
+      "instructions": "Toss sliced apples with sugar and cinnamon. Place in a baking dish. Mix oats, flour, and butter into crumbs; spread over apples. Bake at 375°F for 40 minutes.",
+      "cookTime": "40 minutes",
+      "prepTime": "15 minutes",
+      "cuisine": "American",
+      "course": "Dessert",
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2020/06/Apple-Crisp-Feature.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "granny smith apples",
+          "amount": 6,
+          "unit": "pieces"
+        },
+        {
+          "id": 2,
+          "title": "rolled oats",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "id": 3,
+          "title": "brown sugar",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "id": 4,
+          "title": "cold butter diced",
+          "amount": 115,
+          "unit": "g"
+        },
+        {
+          "id": 5,
+          "title": "cinnamon",
+          "amount": 1,
+          "unit": "tablespoon"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-16T09:30:00.000Z",
+        "updatedAt": "2026-03-16T09:30:00.000Z"
+      },
+      "id": 21,
+      "sku": "DES-AME-APC-21"
+    },
+    {
+      "title": "Creamy Roasted Hummus",
+      "description": "Ultra-smooth hummus made with chickpeas, tahini, and roasted garlic. Perfect for dipping.",
+      "instructions": "Blend chickpeas, tahini, lemon juice, and roasted garlic in a food processor. Slowly drizzle in olive oil and cold water until light and fluffy. Season with cumin and salt.",
+      "cookTime": "0 minutes",
+      "prepTime": "15 minutes",
+      "cuisine": "Middle Eastern",
+      "course": "Appetizer",
+      "imageUrl": "https://example.com/images/hummus.jpg",
+      "recipeIngredients": [
+        {
+          "id": 1,
+          "title": "canned chickpeas drained",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": 2,
+          "title": "tahini",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "id": 3,
+          "title": "extra virgin olive oil",
+          "amount": 3,
+          "unit": "tablespoons"
+        },
+        {
+          "id": 4,
+          "title": "lemon juice",
+          "amount": 2,
+          "unit": "tablespoons"
+        },
+        {
+          "id": 5,
+          "title": "roasted garlic",
+          "amount": 3,
+          "unit": "cloves"
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-03-16T09:35:00.000Z",
+        "updatedAt": "2026-03-16T09:35:00.000Z"
+      },
+      "id": 22,
+      "sku": "APP-MID-HUM-22"
     },
     {
       "title": "Carrot Cake Cookies",
@@ -179,7 +1092,7 @@
         },
         {
           "id": 14,
-          "title": "granulated sugar",
+          "title": "granulated suga",
           "amount": 100,
           "unit": "g"
         }
@@ -190,7 +1103,8 @@
       },
       "id": 1,
       "sku": "DES-AME-CAR-3",
-      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2025/03/Carrot-Cake-Cookies-Feature.jpg"
+      "imageUrl": "https://preppykitchen.com/wp-content/uploads/2025/03/Carrot-Cake-Cookies-Feature.jpg",
+      "imageURL": "https://preppykitchen.com/wp-content/uploads/2025/03/Carrot-Cake-Cookies-Feature.jpg"
     }
   ],
   "ingredients": [
@@ -245,6 +1159,14 @@
     {
       "id": 13,
       "title": "finely chopped pecans"
+    }
+  ],
+  "schedules": [
+    {
+      "id": 1,
+      "recipeId": 3,
+      "recipeTitle": "Classic Chocolate Chip Cookies",
+      "date": "2026-03-16"
     }
   ]
 }
