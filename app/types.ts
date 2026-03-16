@@ -1,5 +1,6 @@
 export interface RecipeIngredient {
   id: number;
+  title: string;
   amount: number;
   unit: string;
   inPantry?: boolean;
@@ -17,13 +18,6 @@ export interface Recipe {
   imageUrl: string;
 }
 export interface RecipesResponse {
-  recipes: Recipe[];
-  total: number;
-  limit: number;
-  page: number;
-  pages: number;
-}
-export interface RecipessResponse {
   recipes: Recipe[];
   total: number;
   limit: number;
