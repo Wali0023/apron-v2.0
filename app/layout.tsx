@@ -9,14 +9,19 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  modal,
 }: Readonly<{
   children: React.ReactNode;
+  modal: React.ReactNode;
 }>) {
   return (
     <html lang="en">
       <body className="bg-[#faf3e1]">
         <Header />
-        <div className="bg-[#faf3e1] mx-auto max-w-6xl">{children}</div>
+        <div className="bg-[#faf3e1] mx-auto max-w-6xl">
+          {children}
+          {modal}
+        </div>
       </body>
     </html>
   );
